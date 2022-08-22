@@ -1,0 +1,76 @@
+{
+  "_from": "ngx-slick-carousel",
+  "_id": "ngx-slick-carousel@0.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-UpQv7nB0sFEEpomtScsIgq4iPa8GxI6mdUA0b1Fx2GkIRXrs0Ehz1tCPO+NUcELyiUxpU/E3bgQI09LKUBzpsw==",
+  "_location": "/ngx-slick-carousel",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ngx-slick-carousel",
+    "name": "ngx-slick-carousel",
+    "escapedName": "ngx-slick-carousel",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ngx-slick-carousel/-/ngx-slick-carousel-0.6.0.tgz",
+  "_shasum": "c10d3b42d7ecef1b41802e2c52239dbea34f1eeb",
+  "_spec": "ngx-slick-carousel",
+  "_where": "C:\\Users\\Vanitha\\my-app",
+  "author": {
+    "name": "leo6104",
+    "email": "heo@mapiacompany.com"
+  },
+  "bugs": {
+    "url": "https://github.com/leo6104/ngx-slick-carousel/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "[![npm version](https://badge.fury.io/js/ngx-slick-carousel.svg)](https://badge.fury.io/js/ngx-slick-carousel) [![Build Status](https://travis-ci.com/leo6104/ngx-slick-carousel.svg?branch=master)](https://travis-ci.com/leo6104/ngx-slick-carousel)",
+  "es2020": "fesm2020/ngx-slick-carousel.mjs",
+  "esm2020": "esm2020/ngx-slick-carousel.mjs",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./ngx-slick-carousel.d.ts",
+      "esm2020": "./esm2020/ngx-slick-carousel.mjs",
+      "es2020": "./fesm2020/ngx-slick-carousel.mjs",
+      "es2015": "./fesm2015/ngx-slick-carousel.mjs",
+      "node": "./fesm2015/ngx-slick-carousel.mjs",
+      "default": "./fesm2020/ngx-slick-carousel.mjs"
+    }
+  },
+  "fesm2015": "fesm2015/ngx-slick-carousel.mjs",
+  "fesm2020": "fesm2020/ngx-slick-carousel.mjs",
+  "homepage": "https://github.com/leo6104/ngx-slick-carousel#readme",
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "module": "fesm2015/ngx-slick-carousel.mjs",
+  "name": "ngx-slick-carousel",
+  "peerDependencies": {
+    "@angular/core": "^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0",
+    "@angular/common": "^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0",
+    "@angular/forms": "^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0",
+    "rxjs": "^6.0.0 || ^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo6104/ngx-slick-carousel.git"
+  },
+  "sideEffects": false,
+  "typings": "ngx-slick-carousel.d.ts",
+  "version": "0.6.0"
+}

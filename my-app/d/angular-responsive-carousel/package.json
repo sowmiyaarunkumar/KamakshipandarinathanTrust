@@ -1,0 +1,79 @@
+{
+  "_from": "angular-responsive-carousel",
+  "_id": "angular-responsive-carousel@2.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-nOCEyL9R80kW876GY8KvXoPu9fHu3nEnA2RVoFZ3hnBLx/OIdebeKFTxfogWLgbI4S1xn+vOecY/a+GnAQNc8w==",
+  "_location": "/angular-responsive-carousel",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "angular-responsive-carousel",
+    "name": "angular-responsive-carousel",
+    "escapedName": "angular-responsive-carousel",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular-responsive-carousel/-/angular-responsive-carousel-2.1.2.tgz",
+  "_shasum": "151adacb80835e374d6b9a3b99ff6d0cf4bd82ec",
+  "_spec": "angular-responsive-carousel",
+  "_where": "C:\\Users\\Vanitha\\my-app",
+  "author": {
+    "name": "Nikita Drozhzhin",
+    "email": "drozhzhin.n.e@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ivylaboratory/angular-carousel/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "Carousel for Angular. A simple solution for horizontal scrolling images with lazy loading.",
+  "es2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/angular-responsive-carousel.js",
+  "es2015": "fesm2015/angular-responsive-carousel.js",
+  "esm2015": "esm2015/angular-responsive-carousel.js",
+  "fesm2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/angular-responsive-carousel.js",
+  "fesm2015": "fesm2015/angular-responsive-carousel.js",
+  "homepage": "http://ivylab.space/carousel",
+  "keywords": [
+    "Angular",
+    "ngx",
+    "Carousel",
+    "Swiper",
+    "Lazy loading",
+    "Image slider"
+  ],
+  "license": "Apache License 2.0",
+  "main": "bundles/angular-responsive-carousel.umd.js",
+  "metadata": "angular-responsive-carousel.metadata.json",
+  "module_ivy_ngcc": "__ivy_ngcc__/fesm2015/angular-responsive-carousel.js",
+  "module": "fesm2015/angular-responsive-carousel.js",
+  "name": "angular-responsive-carousel",
+  "peerDependencies": {
+    "@angular/common": "^11.2.14",
+    "@angular/core": "^11.2.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivylaboratory/angular-carousel.git"
+  },
+  "sideEffects": false,
+  "typings": "angular-responsive-carousel.d.ts",
+  "version": "2.1.2",
+  "__processed_by_ivy_ngcc__": {
+    "es2015": "10.0.14",
+    "fesm2015": "10.0.14",
+    "module": "10.0.14",
+    "typings": "10.0.14"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}

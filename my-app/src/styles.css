@@ -1,0 +1,76 @@
+@import "~bootstrap/dist/css/bootstrap.css"
+
+
+;
+#navbarmain {
+    padding: 20px 0px;
+}
+#navbarmain .nav-link {
+    font-weight: 600;
+    padding: 10px 15px;
+    color:"red"
+   ;
+    text-transform: capitalize;
+    font-size: 16px;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.navbar-brand {
+    margin-top: 10px;
+}
+.dropdown .dropdown-menu {
+    position: absolute;
+    display: block;
+    min-width: 240px;
+    top: 130%;
+    left: 0;
+    right: 0px;
+    opacity: 0;
+    padding: 0px;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    border: 0px;
+    border-top: 5px solid #e12454;
+    border-radius: 0px;
+}
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 115%;
+}
+.dropdown .dropdown-item {
+    padding: 13px 20px;
+    border-bottom: 1px solid #eee;
+    background: transparent;
+    font-weight: 400;
+    color: #555;
+}
+.dropdown .dropdown-item:hover {
+    color:"red";
+   ;
+}
+.header-top-bar {
+    font-size: 14px;
+    padding: 10px 0px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+.top-bar-info li a {
+    margin-right: 20px;
+}
+.top-right-bar a span {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.top-right-bar a i {
+    margin-right: 10px;
+}

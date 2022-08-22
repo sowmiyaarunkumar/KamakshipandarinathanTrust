@@ -1,0 +1,224 @@
+  <!-- Slider Start -->
+  <section class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-xl-7">
+                <div class="block">
+                    <div class="divider mb-3"></div>
+                    <span class="text-uppercase text-sm letter-spacing ">Total Health care solution</span>
+                    <h1 class="mb-3 mt-3">Your most trusted health partner</h1>
+                    
+                    <p class="mb-4 pr-5">Kamakshi Pandarinathan Trust fascinates people in need of rehabilitation all over southern districts of Tamil Nadu however, realized in extending its service at National level by involving in more collaborations at district, national and state level.</p>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="feature-block d-lg-flex">
+                    <div class="feature-item mb-5 mb-lg-0">
+                        <div class="feature-icon mb-4">
+                            <i class="icofont-heart"></i>
+                        </div>
+                        <span>Join the hands</span>
+                        <h4 class="mb-3">Trust Support</h4>
+                        <p class="mb-4">Support us to serve more people. Please donate here</p>
+                      
+                        <a href="https://rzp.io/l/qXpKMEA" class="btn btn-main btn-round-full">Donate</a>
+                    </div>
+                
+                    <div class="feature-item mb-5 mb-lg-0">
+                        <div class="feature-icon mb-4">
+                            <i class="icofont-ui-clock"></i>
+                        </div>
+                        <span>Timing schedule</span>
+                        <h4 class="mb-3">Working Hours</h4>
+                        <ul class="w-hours list-unstyled">
+                            <li class="d-flex justify-content-between">Sun - Wed : <span>8:00 - 17:00</span></li>
+                            <li class="d-flex justify-content-between">Thu - Fri : <span>9:00 - 17:00</span></li>
+                            <li class="d-flex justify-content-between">Sat - sun : <span>10:00 - 17:00</span></li>
+                        </ul>
+                    </div>
+                
+                    <div class="feature-item mb-5 mb-lg-0">
+                        <div class="feature-icon mb-4">
+                            <i class="icofont-support"></i>
+                        </div>
+                        <span>Contact Us</span>
+                        <h4 class="mb-3">+91-951-450-70000</h4>
+                        <p>Get ALl time support for emergency.We have introduced the principle of family medicine.Get Conneted with us for any urgency .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section service gray-bg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 text-center">
+                <div class="section-title" style="margin-bottom: 0%;">
+                    <h2>Meet our Management</h2>
+                    <div class="divider mx-auto my-4"></div>
+                    <p>The trust members are well known for its philanthropic deeds rooted even before they emerged as a trust.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" >
+            <div class="col-lg-3"  *ngFor="let mg of management">
+                <div class="col mb-3">
+    <div class="card cards" style="width: 15rem;">
+        <img [src]="mg.path" class="card-img-top" alt="...">
+        <div class="card-body">
+        <ul class="list-group list-group-flush text-center">
+          <li class="list-group-item font-weight-bold">{{mg.name}}</li>
+          
+          <li class="list-group-item">{{mg.position}}</li>
+        </ul>
+        </div>
+        <div class="card-body text-center">
+          <a  class="card-link" [routerLink]="['/self',mg.id]">View Profile</a>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+</section>
+
+<section class="section about">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-sm-6">
+                <div class="about-img">
+                    <img src="../../assets/images/about/img-1.jpg" alt="" class="img-fluid">
+                    <img src="../../assets/images/about/img-2.jpg" alt="" class="img-fluid mt-4">
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="about-img mt-4 mt-lg-0">
+                    <img src="../../assets/images/about/img-3.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="about-content pl-4 mt-4 mt-lg-0">
+                    <h2 class="title-color">Personal care <br>& healthy living</h2>
+                    <p class="mt-4 mb-5">The uniqueness of the trust is presence of certified professionals at all the working hours serving to provide better quality of life for persons with disabilities and their families as well.</p>
+
+                    <a routerLink="ourservices" class="btn btn-main-2 btn-round-full btn-icon">Services<i class="icofont-simple-right ml-3"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section service gray-bg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 text-center">
+                <div class="section-title">
+                    <h2>Award winning patient care</h2>
+                    <div class="divider mx-auto my-4"></div>
+                    <p>Trust predominantly focuses on habilitation and rehabilitation of Persons and their families with Disabilities. It will cater it services in detail pertaining to medical, allied health and humanitarian wings. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6" [routerLink]="['/services-single',3]">
+                <div class="service-item mb-4">
+                    <div class="icon d-flex align-items-center">
+                        <img src="../../assets/images/physical-therapy (5).png">
+                        <h4 class="mt-3 mb-3">Physiotherapy Services</h4>
+                    </div>
+
+                    <div class="content">
+                        <p class="mb-4">Physiotherapy helps through physical rehabilitation, injury prevention, and health and fitness. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6" [routerLink]="['/services-single',9]">
+                <div class="service-item mb-4">
+                    <div class="icon d-flex align-items-center">
+                        <img src="../../assets/images/physical-therapy (4).png">
+                        <h4 class="mt-3 mb-3">Psychological Care</h4>
+                    </div>
+                    <div class="content">
+                        <p class="mb-4">Professional psychology that uses a broad range of 
+                           culturally-sensitive practices to help people improve their well-being.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 col-sm-6" [routerLink]="['/services-single',7]">
+                <div class="service-item mb-4">
+                    <div class="icon d-flex align-items-center">
+                        <img src="../../assets/images/physical-therapy (2).png">
+                        <h4 class="mt-3 mb-3">Music & Aquatic Theraphy</h4>
+                    </div>
+                    <div class="content">
+                        <p class="mb-4">Aquatic exercise,music,Hydro therapy are provided as a part of healing and relaxation. </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 col-sm-6" [routerLink]="['/services-single',10]">
+                <div class="service-item mb-4">
+                    <div class="icon d-flex align-items-center">
+                        <img src="../../assets/images/physical-therapy (7).png">
+                        <h4 class="mt-3 mb-3">Behavior Theraphy</h4>
+                    </div>
+
+                    <div class="content">
+                        <p class="mb-4">It focuses on mainly improving specific behaviors,social skills and communication skills.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6" [routerLink]="['/services-single',7]">
+                <div class="service-item mb-4">
+                    <div class="icon d-flex align-items-center">
+                        <img src="../../assets/images/yoga.png">
+                        <h4 class="mt-3 mb-3">Yoga Theraphy</h4>
+                    </div>
+                    <div class="content">
+                        <p class="mb-4">Yoga is a mind and body practice.Physical postures, breathing techniques, and meditation or relaxation.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 col-sm-6" [routerLink]="['/services-single',8]">
+                <div class="service-item mb-4">
+                    <div class="icon d-flex align-items-center">
+                        <img src="../../assets/images/naturopathy.png">
+                        <h4 class="mt-3 mb-3">Naturopathy consultation</h4>
+                    </div>
+                    <div class="content">
+                        <p class="mb-4">Naturopathy that combines modern and traditional methods.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section testimonial-2">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-7">
+				<div class="section-title text-center">
+					<h2>We served over 5000+ Patients</h2>
+					<div class="divider mx-auto my-4"></div>
+					<p>We provide developmental and compulsory education for children to achieve their maximum level of competency in numeracy, literacy. The student who needs to fix their few lacking skills pertaining to reading, numeric and writing difficulties. Learning disability children and slow learners have shown great improvement through our remedial education.  </p>
+				</div>
+			</div>
+		</div>
+	</div>
+   
+</section>
+

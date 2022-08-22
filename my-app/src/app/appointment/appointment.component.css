@@ -1,0 +1,11 @@
+#iframe.geS5n {
+    -webkit-transition: background-color 200ms cubic-bezier(0,0,0.2,1);
+    transition: background-color 200ms cubic-bezier(0,0,0.2,1);
+    background-color: #fff;
+     border:none !important;
+    /* border-radius: 8px; */
+     margin: bottom 0;
+    padding: 14px !important;
+    page-break-inside: avoid;   
+    word-wrap: break-word;
+}
